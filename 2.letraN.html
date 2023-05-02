@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>WHILE 2</title>
+    </head>
+
+    
+    <body> 
+        <script>
+            /*Escribir un programa que solicite al usuario ingresar números y al 
+            final mostrar la suma y el promedio de los números ingresados. El 
+            programa seguirá solicitando números hasta que ingrese la letra «N».*/
+
+        let num1 = parseInt(prompt("Ingrese un numero 1"));
+        let num2 = parseInt(prompt("Ingrese un numero 2"));
+        let suma = (num1 + num2);
+        let promedio = (suma/2);
+        let seleccion = prompt("Quiere repetir s o n")
+        if(seleccion=="s")
+            {document.write("La suma es:" ,suma+"   "+"<br>");suma++
+            document.write("El promedio es:",promedio+"   "+"<br>");promedio++
+            let sumas=suma
+            let promedios=promedio}
+        if (seleccion=="n")
+            {document.write("Ingreso la letra n, es el fin")}
+
+            </script>
+    </body>
+</html>
